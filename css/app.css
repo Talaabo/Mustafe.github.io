@@ -1,39 +1,54 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fff; 
-    color: #333; 
-  }
-  
-  header {
-    background-color: #333; 
-    padding: 20px;
-    text-align: center;
-  }
-  
-  header img {
-    border-radius: 50%;
-    width: 150px; 
-    height: 150px;
-    object-fit: cover;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  section {
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #fff; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-  }
-  
-  footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333; 
-    color: #fff; 
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
+}
 
+header {
+  background-color: #222; /* Slightly darker background color for header */
+  padding: 20px;
+  text-align: center;
+}
+
+header img {
+  border-radius: 50%;
+  width: 150px; /* Adjust image size as needed */
+  height: 150px;
+  object-fit: cover;
+}
+
+nav {
+  background-color: #222; /* Dark background color for navigation bar */
+  text-align: center;
+  padding: 10px 0; /* Padding top and bottom */
+}
+
+nav a {
+  color: #fff; /* Text color for links */
+  text-decoration: none; /* Remove underline from links */
+  margin: 0 10px; /* Margin between links */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #444; /* Slightly darker background color for sections */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect for sections */
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #222; /* Dark background color for footer */
+  color: #fff; /* Light text color for footer */
+}
