@@ -59,15 +59,6 @@ footer {
   height: 100vh; /* Adjust as needed */
 }
 
-.bio-container {
-  display: flex;
-  max-width: 800px; /* Adjust as needed */
-}
-
-.image-container {
-  flex: 0 0 50%; /* 50% width for the image */
-  text-align: center;
-}
 
 .image-container img {
   max-width: 100%;
