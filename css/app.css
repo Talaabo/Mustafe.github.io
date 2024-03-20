@@ -52,3 +52,38 @@ footer {
   background-color: #222; /* Dark background color for footer */
   color: #fff; /* Light text color for footer */
 }
+.bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+}
+
+.bio-container {
+  display: flex;
+  max-width: 800px; /* Adjust as needed */
+}
+
+.image-container {
+  flex: 0 0 50%; /* 50% width for the image */
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-container {
+  flex: 0 0 50%; /* 50% width for the text */
+  padding: 0 20px; /* Add some padding for spacing */
+}
+
+@media (max-width: 768px) {
+  .bio-container {
+    flex-direction: column;
+  }
+  .text-container {
+    flex: 1;
+  }
+}
